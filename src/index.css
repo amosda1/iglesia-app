@@ -7,9 +7,21 @@
   --color-llama-hover: #dc2626;
   --color-guerra: #7c3aed;
   --color-guerra-hover: #6d28d9;
-  --color-noche: #040315;
-  --color-noche-claro: #1e1b3a;
+  --color-noche: #0a0808;
+  --color-noche-claro: #1c1515;
   --color-oro: #fbbf24;
+}
+
+@keyframes blob {
+  0%, 100% { border-radius: 40% 60% 55% 45% / 45% 50% 60% 55%; }
+  25%      { border-radius: 55% 45% 50% 50% / 55% 45% 55% 45%; }
+  50%      { border-radius: 50% 50% 45% 55% / 50% 55% 45% 50%; }
+  75%      { border-radius: 45% 55% 55% 45% / 50% 45% 55% 50%; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50%      { transform: translateY(-8px); }
 }
 
 body {
