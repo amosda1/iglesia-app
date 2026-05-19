@@ -1,5 +1,17 @@
 @import "tailwindcss";
 
+@theme {
+  --color-fuego: #f59e0b;
+  --color-fuego-hover: #d97706;
+  --color-llama: #ef4444;
+  --color-llama-hover: #dc2626;
+  --color-guerra: #7c3aed;
+  --color-guerra-hover: #6d28d9;
+  --color-noche: #040315;
+  --color-noche-claro: #1e1b3a;
+  --color-oro: #fbbf24;
+}
+
 body {
   margin: 0;
 }

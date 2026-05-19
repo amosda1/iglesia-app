@@ -42,10 +42,10 @@ export default function HeroCarousel() {
         <h1 className="drop-shadow-2xl font-extrabold text-white text-5xl md:text-7xl tracking-tight">
           JUVENTUD GUERRERA
         </h1>
-        <p className="drop-shadow-lg mt-4 font-bold text-amber-400 text-2xl md:text-3xl">
+        <p className="drop-shadow-lg mt-4 font-bold text-oro text-2xl md:text-3xl">
           GENERACIÓN DE FUEGO!
         </p>
-        <button className="inline-block bg-amber-500 hover:bg-amber-400 shadow-lg mt-10 px-8 py-3 rounded-full font-bold text-gray-900 text-lg hover:scale-105 active:scale-95 transition-all cursor-pointer">
+        <button className="inline-block bg-fuego hover:bg-fuego-hover shadow-lg mt-10 px-8 py-3 rounded-full font-bold text-gray-900 text-lg hover:scale-105 active:scale-95 transition-all cursor-pointer">
           Únete a nosotros
         </button>
       </div>
@@ -72,7 +72,7 @@ export default function HeroCarousel() {
             key={index}
             onClick={() => setCurrent(index)}
             className={`h-2 rounded-full transition-all duration-300 ${
-              index === current ? "w-8 bg-amber-400" : "w-2 bg-white/60"
+              index === current ? "w-8 bg-oro" : "w-2 bg-white/60"
             }`}
             aria-label={`Ir a slide ${index + 1}`}
           />
