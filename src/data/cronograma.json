@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "dia": "Lunes",
+    "hora": "18:00 - 20:00",
+    "actividad": "Estudio Bíblico",
+    "sede": "Principal",
+    "encargado": "Pastor Juan"
+  },
+  {
+    "id": 2,
+    "dia": "Miércoles",
+    "hora": "19:00 - 21:00",
+    "actividad": "Alabanza y Adoración",
+    "sede": "Principal",
+    "encargado": "Hno. Carlos"
+  },
+  {
+    "id": 3,
+    "dia": "Viernes",
+    "hora": "17:00 - 19:00",
+    "actividad": "Escuela Dominical",
+    "sede": "Sede Norte",
+    "encargado": "Hna. María"
+  },
+  {
+    "id": 4,
+    "dia": "Sábado",
+    "hora": "09:00 - 11:00",
+    "actividad": "Evangelismo",
+    "sede": "Todas las sedes",
+    "encargado": "Diácono Pedro"
+  },
+  {
+    "id": 5,
+    "dia": "Domingo",
+    "hora": "10:00 - 12:00",
+    "actividad": "Culto General",
+    "sede": "Principal",
+    "encargado": "Pastor Juan"
+  },
+  {
+    "id": 6,
+    "dia": "Domingo",
+    "hora": "10:00 - 12:00",
+    "actividad": "Culto General",
+    "sede": "Sede Norte",
+    "encargado": "Pastor David"
+  },
+  {
+    "id": 7,
+    "dia": "Domingo",
+    "hora": "10:00 - 12:00",
+    "actividad": "Culto General",
+    "sede": "Sede Sur",
+    "encargado": "Pastora Ana"
+  }
+]

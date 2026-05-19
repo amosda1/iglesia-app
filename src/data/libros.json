@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "titulo": "La Biblia Reina Valera 1960",
+    "autor": "Varios",
+    "categoria": "Sagradas Escrituras",
+    "disponible": true
+  },
+  {
+    "id": 2,
+    "titulo": "El Progreso del Peregrino",
+    "autor": "John Bunyan",
+    "categoria": "Clásicos Cristianos",
+    "disponible": true
+  },
+  {
+    "id": 3,
+    "titulo": "Mero Cristianismo",
+    "autor": "C.S. Lewis",
+    "categoria": "Apologética",
+    "disponible": false
+  },
+  {
+    "id": 4,
+    "titulo": "El Poder de la Oración",
+    "autor": "E.M. Bounds",
+    "categoria": "Vida Cristiana",
+    "disponible": true
+  },
+  {
+    "id": 5,
+    "titulo": "Jesús el Señor",
+    "autor": "Timothy Keller",
+    "categoria": "Teología",
+    "disponible": true
+  },
+  {
+    "id": 6,
+    "titulo": "Introducción a la Hermenéutica Bíblica",
+    "autor": "Walter C. Kaiser Jr.",
+    "categoria": "Estudio Bíblico",
+    "disponible": true
+  }
+]

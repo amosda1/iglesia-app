@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "src": "https://images.unsplash.com/photo-1504051771394-dd2e66b2e08f?w=1920&q=80",
+    "alt": "Jóvenes adorando"
+  },
+  {
+    "id": 2,
+    "src": "https://images.unsplash.com/photo-1511649475669-e288648b2339?w=1920&q=80",
+    "alt": "Grupo de jóvenes en oración"
+  },
+  {
+    "id": 3,
+    "src": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1920&q=80",
+    "alt": "Comunidad juvenil cristiana"
+  }
+]
