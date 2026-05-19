@@ -1,10 +1,19 @@
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useMemo } from "react";
 import { ChevronLeft, ChevronRight, Flame } from "lucide-react";
 import slides from "../data/carouselData.json";
+import eventos from "../data/eventos.json";
+import Countdown from "./Countdown";
 
 export default function HeroCarousel() {
   const [current, setCurrent] = useState(0);
   const total = slides.length;
+
+  const proximoEvento = useMemo(() => {
+    const futuros = eventos
+      .filter((e) => new Date(e.fecha) > Date.now())
+      .sort((a, b) => new Date(a.fecha) - new Date(b.fecha));
+    return futuros[0] || null;
+  }, []);
 
   const next = useCallback(() => {
     setCurrent((prev) => (prev + 1) % total);
@@ -85,6 +94,13 @@ export default function HeroCarousel() {
               <Flame className="w-4 h-4" />
             </button>
           </div>
+
+          {proximoEvento && (
+            <Countdown
+              targetDate={proximoEvento.fecha}
+              label={`Faltan para: ${proximoEvento.titulo}`}
+            />
+          )}
 
           <div className="flex items-center gap-4 mt-10">
             <button

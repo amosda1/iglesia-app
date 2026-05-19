@@ -24,6 +24,11 @@
   50%      { transform: translateY(-8px); }
 }
 
+@keyframes scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
 body {
   margin: 0;
 }

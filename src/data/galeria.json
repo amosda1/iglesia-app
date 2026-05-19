@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "src": "https://images.unsplash.com/photo-1504051771394-dd2e66b2e08f?w=600&q=80",
+    "alt": "Jóvenes en alabanza"
+  },
+  {
+    "id": 2,
+    "src": "https://images.unsplash.com/photo-1511649475669-e288648b2339?w=600&q=80",
+    "alt": "Grupo de oración juvenil"
+  },
+  {
+    "id": 3,
+    "src": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&q=80",
+    "alt": "Comunidad juvenil"
+  },
+  {
+    "id": 4,
+    "src": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=600&q=80",
+    "alt": "Bautismo juvenil"
+  },
+  {
+    "id": 5,
+    "src": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&q=80",
+    "alt": "Estudio bíblico"
+  },
+  {
+    "id": 6,
+    "src": "https://images.unsplash.com/photo-1605192640849-c02bce393fc9?w=600&q=80",
+    "alt": "Campamento juvenil"
+  },
+  {
+    "id": 7,
+    "src": "https://images.unsplash.com/photo-1604881991720-f91add269bed?w=600&q=80",
+    "alt": "Conferencia de jóvenes"
+  },
+  {
+    "id": 8,
+    "src": "https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=600&q=80",
+    "alt": "Actividad al aire libre"
+  }
+]

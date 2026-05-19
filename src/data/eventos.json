@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "titulo": "Aniversario de Jóvenes",
+    "fecha": "2026-06-15T18:00:00",
+    "lugar": "Sede Principal",
+    "descripcion": "Celebración de 5 años del ministerio juvenil. Noche de alabanza, testimonios y cena."
+  },
+  {
+    "id": 2,
+    "titulo": "Vigilia de Fuego",
+    "fecha": "2026-07-25T22:00:00",
+    "lugar": "Sede Norte",
+    "descripcion": "Toda la noche en oración y adoración. Trae tu sleeping bag."
+  },
+  {
+    "id": 3,
+    "titulo": "Conferencia Juvenil",
+    "fecha": "2026-08-10T09:00:00",
+    "lugar": "Auditorio Central",
+    "descripcion": "Invitado especial: Pastor internacional. Talleres, música y palabra."
+  }
+]
